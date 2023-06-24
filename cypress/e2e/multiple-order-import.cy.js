@@ -14,46 +14,46 @@ describe('Multiple Order Import', () => {
         cy.contains('Sales').click()
         cy.contains('Manage Orders').click()
     });
-    // it('Uploads 1-20 orders', () => {
-    //     for (let i = 1; i <= 20; i++) {
-    //         uploadOrder(i);
-    //     }
-    // })
-    // it('Uploads 21-40 orders', () => {
-    //     for (let i = 21; i <= 40; i++) {
-    //         uploadOrder(i);
-    //     }
-    // })
-    // it('Uploads 41-60 orders', () => {
-    //     for (let i = 41; i <= 60; i++) {
-    //         uploadOrder(i);
-    //     }
-    // })
-    // it('Uploads 61-80 orders', () => {
-    //     for (let i = 61; i <= 80; i++) {
-    //         uploadOrder(i);
-    //     }
-    // })
-    // it('Uploads 81-100 orders', () => {
-    //     for (let i = 81; i <= 100; i++) {
-    //         uploadOrder(i);
-    //     }
-    // })
-    // it('Uploads 101-120 orders', () => {
-    //     for (let i = 101; i <= 120; i++) {
-    //         uploadOrder(i);
-    //     }
-    // })
-    // it('Uploads 121-140 orders', () => {
-    //     for (let i = 121; i <= 140; i++) {
-    //         uploadOrder(i);
-    //     }
-    // })
-    // it('Uploads 141-160 orders', () => {
-    //     for (let i = 141; i <= 160; i++) {
-    //         uploadOrder(i);
-    //     }
-    // })
+    it('Uploads 1-20 orders', () => {
+        for (let i = 1; i <= 20; i++) {
+            uploadOrder(i);
+        }
+    })
+    it('Uploads 21-40 orders', () => {
+        for (let i = 21; i <= 40; i++) {
+            uploadOrder(i);
+        }
+    })
+    it('Uploads 41-60 orders', () => {
+        for (let i = 41; i <= 60; i++) {
+            uploadOrder(i);
+        }
+    })
+    it('Uploads 61-80 orders', () => {
+        for (let i = 61; i <= 80; i++) {
+            uploadOrder(i);
+        }
+    })
+    it('Uploads 81-100 orders', () => {
+        for (let i = 81; i <= 100; i++) {
+            uploadOrder(i);
+        }
+    })
+    it('Uploads 101-120 orders', () => {
+        for (let i = 101; i <= 120; i++) {
+            uploadOrder(i);
+        }
+    })
+    it('Uploads 121-140 orders', () => {
+        for (let i = 121; i <= 140; i++) {
+            uploadOrder(i);
+        }
+    })
+    it('Uploads 141-160 orders', () => {
+        for (let i = 141; i <= 160; i++) {
+            uploadOrder(i);
+        }
+    })
     it('Uploads 161-180 orders', () => {
         for (let i = 163; i <= 180; i++) {
             uploadOrder(i);
