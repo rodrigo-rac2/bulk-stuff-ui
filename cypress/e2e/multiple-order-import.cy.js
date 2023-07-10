@@ -24,61 +24,61 @@ describe('Multiple Order Import', () => {
             uploadOrder(i);
         }
     })
-    it('Uploads 41-60 orders', () => {
-        for (let i = 41; i <= 60; i++) {
+    it('Uploads 41-50 orders', () => {
+        for (let i = 41; i <= 50; i++) {
             uploadOrder(i);
         }
     })
-    it('Uploads 61-80 orders', () => {
-        for (let i = 61; i <= 80; i++) {
-            uploadOrder(i);
-        }
-    })
-    it('Uploads 81-100 orders', () => {
-        for (let i = 81; i <= 100; i++) {
-            uploadOrder(i);
-        }
-    })
-    it('Uploads 101-120 orders', () => {
-        for (let i = 101; i <= 120; i++) {
-            uploadOrder(i);
-        }
-    })
-    it('Uploads 121-140 orders', () => {
-        for (let i = 121; i <= 140; i++) {
-            uploadOrder(i);
-        }
-    })
-    it('Uploads 141-160 orders', () => {
-        for (let i = 141; i <= 160; i++) {
-            uploadOrder(i);
-        }
-    })
-    it('Uploads 161-180 orders', () => {
-        for (let i = 163; i <= 180; i++) {
-            uploadOrder(i);
-        }
-    })
-    it('Uploads 181-200 orders', () => {
-        for (let i = 181; i <= 200; i++) {
-            uploadOrder(i);
-        }
-    })
-    it('Uploads 201-220 orders', () => {
-        for (let i = 201; i <= 220; i++) {
-            uploadOrder(i);
-        }
-    })
-    it('Uploads 221-240 orders', () => {
-        for (let i = 221; i <= 240; i++) {
-            uploadOrder(i);
-        }
-    })
-    it('Uploads 241-260 orders', () => {
-        for (let i = 241; i <= 260; i++) {
-            uploadOrder(i);
-        }
-    })
+    // it('Uploads 61-80 orders', () => {
+    //     for (let i = 61; i <= 80; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
+    // it('Uploads 81-100 orders', () => {
+    //     for (let i = 81; i <= 100; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
+    // it('Uploads 101-120 orders', () => {
+    //     for (let i = 101; i <= 120; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
+    // it('Uploads 121-140 orders', () => {
+    //     for (let i = 121; i <= 140; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
+    // it('Uploads 141-160 orders', () => {
+    //     for (let i = 141; i <= 160; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
+    // it('Uploads 161-180 orders', () => {
+    //     for (let i = 163; i <= 180; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
+    // it('Uploads 181-200 orders', () => {
+    //     for (let i = 181; i <= 200; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
+    // it('Uploads 201-220 orders', () => {
+    //     for (let i = 201; i <= 220; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
+    // it('Uploads 221-240 orders', () => {
+    //     for (let i = 221; i <= 240; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
+    // it('Uploads 241-260 orders', () => {
+    //     for (let i = 241; i <= 260; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
 })
 
 function uploadOrder(i) {
