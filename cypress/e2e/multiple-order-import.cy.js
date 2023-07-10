@@ -87,7 +87,7 @@ function uploadOrder(i) {
     cy.get('button').contains('Create Order').click()
     cy.get('button').contains('Multiple Order').click()
     // enters the order name in the input with placeholder containing string "e.g. December 2020"
-    cy.get('input[placeholder*="e.g. December 2020"]').type(`${dateString} - 1500 LineItems MOTest ${i}`)
+    cy.get('input[placeholder*="e.g. December 2020"]').type(`${dateString} - 500 LineItems MOTest ${i}`)
     cy.get('input[type="file"]', { timeout: 60000 }).should('not.be.disabled').selectFile(Cypress.env('ORDERS-FILE'), {force: true})
     cy.get('#confirm-order-update', { timeout: 60000 }).should('not.be.disabled').click()
 }
