@@ -24,16 +24,16 @@ describe('Multiple Order Import', () => {
             uploadOrder(i);
         }
     })
-    it('Uploads 41-50 orders', () => {
-        for (let i = 41; i <= 50; i++) {
+    it('Uploads 41-60 orders', () => {
+        for (let i = 41; i <= 60; i++) {
             uploadOrder(i);
         }
     })
-    // it('Uploads 61-80 orders', () => {
-    //     for (let i = 61; i <= 80; i++) {
-    //         uploadOrder(i);
-    //     }
-    // })
+    it('Uploads 61-80 orders', () => {
+        for (let i = 61; i <= 75; i++) {
+            uploadOrder(i);
+        }
+    })
     // it('Uploads 81-100 orders', () => {
     //     for (let i = 81; i <= 100; i++) {
     //         uploadOrder(i);
@@ -87,7 +87,7 @@ function uploadOrder(i) {
     cy.get('button').contains('Create Order').click()
     cy.get('button').contains('Multiple Order').click()
     // enters the order name in the input with placeholder containing string "e.g. December 2020"
-    cy.get('input[placeholder*="e.g. December 2020"]').type(`${dateString} - 1100 LineItems MOTest ${i}`)
+    cy.get('input[placeholder*="e.g. December 2020"]').type(`${dateString} - 1500 LineItems MOTest ${i}`)
     cy.get('input[type="file"]', { timeout: 60000 }).should('not.be.disabled').selectFile(Cypress.env('ORDERS-FILE'), {force: true})
     cy.get('#confirm-order-update', { timeout: 60000 }).should('not.be.disabled').click()
 }
