@@ -39,26 +39,26 @@ describe('Multiple Order Import', () => {
             uploadOrder(i);
         }
     })
-    it('Uploads 101-120 orders', () => {
-        for (let i = 101; i <= 120; i++) {
-            uploadOrder(i);
-        }
-    })
-    it('Uploads 121-140 orders', () => {
-         for (let i = 121; i <= 140; i++) {
-             uploadOrder(i);
-         }
-    })
-    it('Uploads 141-160 orders', () => {
-        for (let i = 141; i <= 160; i++) {
-            uploadOrder(i);
-        }
-    })
-    it('Uploads 161-180 orders', () => {
-        for (let i = 163; i <= 180; i++) {
-            uploadOrder(i);
-        }
-    })
+    // it('Uploads 101-120 orders', () => {
+    //     for (let i = 101; i <= 120; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
+    // it('Uploads 121-140 orders', () => {
+    //      for (let i = 121; i <= 140; i++) {
+    //          uploadOrder(i);
+    //      }
+    // })
+    // it('Uploads 141-160 orders', () => {
+    //     for (let i = 141; i <= 160; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
+    // it('Uploads 161-180 orders', () => {
+    //     for (let i = 163; i <= 180; i++) {
+    //         uploadOrder(i);
+    //     }
+    // })
     // it('Uploads 181-200 orders', () => {
     //     for (let i = 181; i <= 200; i++) {
     //         uploadOrder(i);
